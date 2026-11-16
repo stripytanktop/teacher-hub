@@ -7,7 +7,7 @@ const QCAA_INCLUSIVE_URL='https://www.qcaa.qld.edu.au/p-10/student-diversity/tea
 const EMINERVA_ROLL_URL='https://eminerva.bne.catholic.edu.au/eMinerva/ATTENDANCE/TCP';
 const AUSTRALIAN_CURRICULUM_URL='https://www.australiancurriculum.edu.au/';
 const BCE_CURRICULUM_PLANNING_URL='https://mybcecatholicedu.sharepoint.com/sites/learning-teaching/SitePages/Curriculum-Planning-Hub.aspx#browse-by-year-level';
-const QCAA_STANDARDS_URL='https://www.qcaa.qld.edu.au/p-10/aciq/version-8/frequently-used-resources/standards-elaborations';
+const QCAA_VERSION9_URL='https://www.qcaa.qld.edu.au/p-10/aciq/version-9';
 const categories=[{id:'today',icon:'📅',name:'Today',hint:'Get moving quickly'},{id:'plan',icon:'📝',name:'Plan',hint:'Curriculum to classroom'},{id:'teach',icon:'🎯',name:'Teach',hint:'Activities and strategies'},{id:'assess',icon:'📊',name:'Assess & Report',hint:'Evidence to reporting'},{id:'find',icon:'🔎',name:'Find',hint:'Systems and resources'}];
 const items=[
 {cat:'today',title:'Mark the roll',desc:'Open eMinerva attendance to mark the class roll.',label:'Attendance',key:'roll mark roll attendance eminerva morning afternoon am pm class attendance tcp',status:'link',url:EMINERVA_ROLL_URL,actionLabel:'Mark the roll →'},
@@ -36,7 +36,7 @@ const pathways={
 curriculumPlanning:{title:'Curriculum planning',intro:'What do you need for planning?',options:[
 {title:'Australian Curriculum',desc:'Explore curriculum content, achievement standards, general capabilities and cross-curriculum priorities.',kind:'Curriculum',url:AUSTRALIAN_CURRICULUM_URL,actionLabel:'Open Australian Curriculum →'},
 {title:'BCE Curriculum Planning',desc:'Browse BCE curriculum planning resources by year level and access planning support.',kind:'BCE planning',url:BCE_CURRICULUM_PLANNING_URL,actionLabel:'Browse BCE planning resources →'},
-{title:'QCAA Standards Elaborations',desc:'Use the currently available Version 8.4 Standards Elaborations to support judgments about the qualities evident in student work.',kind:'Assessment support',url:QCAA_STANDARDS_URL,actionLabel:'Open Standards Elaborations →'}]},
+{title:'QCAA Australian Curriculum v9.0',desc:'Open QCAA guidance, planning and implementation resources for the Australian Curriculum Version 9.0 in Queensland.',kind:'Queensland curriculum',url:QCAA_VERSION9_URL,actionLabel:'Open QCAA Version 9.0 →'}]},
 classroomTools:{title:'Classroom tools',intro:'What do you need right now?',developed:'classroomTools',needs:[
 {icon:'🔇',title:'Manage classroom noise',desc:'Use a visual cue to support classroom noise levels.',tools:[{title:'Shy Safari',desc:'Calmer, reward-for-quiet visual',url:'https://www.shysafari.com/',action:'Open Shy Safari →'},{title:'Bouncy Balls',desc:'Immediate visual response to noise',url:'https://bouncyballs.org/',action:'Open Bouncy Balls →'}]},
 {icon:'⏱️',title:'Time an activity',desc:'Put a simple timer on screen for activities, independent work or transitions.',tools:[{title:'Timer',source:'Toy Theater',url:'https://toytheater.com/classroom-timer/',action:'Open timer →'}]},
