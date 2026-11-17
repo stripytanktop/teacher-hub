@@ -15,3 +15,5 @@
 .psp-flow .lens-action strong{color:var(--navy)}
 .psp-flow .compact-resources{background:#fff;border-radius:10px;padding:10px 12px;margin-top:12px}
 .psp-flow .resource-row:last-child{border-bottom:0}
+
+.modal-back{display:inline-flex;align-items:center;gap:6px;border:0;background:transparent;color:var(--green);font-weight:800;font-size:.95rem;padding:4px 0 10px;cursor:pointer}.modal-back[hidden]{display:none}.modal-back:focus-visible{outline:3px solid rgba(23,111,165,.25);outline-offset:3px;border-radius:5px}
